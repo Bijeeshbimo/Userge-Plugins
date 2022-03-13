@@ -41,6 +41,6 @@ async def wahack_func(message):
               "To Delete This Database```")
     max_ani = len(animation_chars)
     for i in range(max_ani):
-        await asyncio.sleep(1)
+        await asyncio.sleep(2)
         await message.edit(animation_chars[i % max_ani])
     await message.edit(hecked)
